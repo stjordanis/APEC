@@ -1,0 +1,32 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>18.0f2</Version>
+<Cluster>
+<Name>TT Module Config  in</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{1FB5D7DE-16EA-4587-ADE1-8391E5800FDD}</Val>
+</String>
+<Cluster>
+<Name>Drop Coords</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>Horizontal</Name>
+<Val>483</Val>
+</I32>
+<I32>
+<Name>Vertical</Name>
+<Val>451</Val>
+</I32>
+</Cluster>
+<String>
+<Name>Input Channel Tag Name </Name>
+<Val>Temperature</Val>
+</String>
+<String>
+<Name>Process Name</Name>
+<Val>TT 1</Val>
+</String>
+</Cluster>
+</LVData>
