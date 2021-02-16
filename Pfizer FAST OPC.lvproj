@@ -88,7 +88,7 @@
 			<Item Name="ftd2xx64.dll" Type="Document" URL="../Pfizer Timed Seq/Third Party Drivers/4600031 - Version 1.2-Asia Pump Drivers/ftd2xx64.dll"/>
 			<Item Name="ftd2xx.dll" Type="Document" URL="../Pfizer Timed Seq/Third Party Drivers/4600031 - Version 1.2-Asia Pump Drivers/ftd2xx.dll"/>
 		</Item>
-		<Item Name="Agitator Module.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Agitator Module Folder - Copy/Agitator Module.lvlib"/>
+		<Item Name="Agitator Module.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Agitator Module Folder/Agitator Module.lvlib"/>
 		<Item Name="ASIA Pump.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/ASIA Pump.lvlib"/>
 		<Item Name="Bronkhorst M13 Flow Meter.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Bronkhorst M13 Flow Meter/Bronkhorst M13 Flow Meter.lvlib"/>
 		<Item Name="Bronkhorst M14 Flow Meter.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Bronkhorst M14 Flow Meter/Bronkhorst M14 Flow Meter.lvlib"/>
@@ -105,6 +105,7 @@
 		<Item Name="History Graph.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/History Graph/History Graph.lvlib"/>
 		<Item Name="Huber Ministat 230 TCU.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Huber TCU/Huber Ministat 230 TCU.lvlib"/>
 		<Item Name="Huber Unistat 410 TCU.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Huber Unistat 410 TCU/Huber Unistat 410 TCU.lvlib"/>
+		<Item Name="IKA EUROSTAR.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/IKA EUROSTAR/IKA EUROSTAR.lvlib"/>
 		<Item Name="Ismatec 4308.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Ismatec 78001/Ismatec 4308.lvlib"/>
 		<Item Name="Ismatec ISM 831C.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Ismatec ISM 831C/Ismatec ISM 831C.lvlib"/>
 		<Item Name="JULABO DeviceDriver.lvlib" Type="Library" URL="../Pfizer Timed Seq/Third Party Drivers/Julabo Type 1/JULABO DeviceDriver/JULABO DeviceDriver.lvlib"/>
@@ -590,7 +591,7 @@
 			<Item Name="SCT Get LVRTPath.vi" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Get LVRTPath.vi"/>
 			<Item Name="SCT Get Types.vi" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Get Types.vi"/>
 			<Item Name="SCT Default Types.ctl" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Default Types.ctl"/>
-			<Item Name="Sonicator Module Settings Cluster and Start Stop.ctl" Type="VI" URL="../Pfizer Timed Seq/Software/Agitator Module Folder - Copy/Feed Module/Controls/Sonicator Module Settings Cluster and Start Stop.ctl"/>
+			<Item Name="Sonicator Module Settings Cluster and Start Stop.ctl" Type="VI" URL="../Pfizer Timed Seq/Software/Agitator Module Folder/Feed Module/Controls/Sonicator Module Settings Cluster and Start Stop.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FAST Application" Type="EXE">
@@ -626,7 +627,7 @@
 				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
 				<Property Name="Exe_VardepLibItemCount" Type="Int">2</Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{807BFA11-3FBA-4172-AB46-2F8DD8A7EFF2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A0AB0449-A72E-4050-A078-CA35AA55DD43}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>

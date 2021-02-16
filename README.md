@@ -1,2 +1,2 @@
 # APEC
-A LabVIEW project for controlling lab scale process equipment
+APEC created 3.2.20
