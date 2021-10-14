@@ -35,17 +35,23 @@
 	<Property Name="Serialized ACL" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="support" Type="Folder">
+		<Item Name="New Folder" Type="Folder">
+			<Item Name="Stop Acquisition.vi" Type="VI" URL="../../Acquisition/Stop Acquisition.vi"/>
+			<Item Name="Error Handler - Write Message Loop.vi" Type="VI" URL="../DAQ Write Folder/Acquisition/Error Handler - Write Message Loop.vi"/>
+			<Item Name="Stop Write.vi" Type="VI" URL="../DAQ Write Folder/Acquisition/Stop Write.vi"/>
+			<Item Name="Write Settings Dialog.vi" Type="VI" URL="../DAQ Write Folder/Acquisition/Write Settings Dialog.vi"/>
+		</Item>
 		<Item Name="Hardware Configuration.ctl" Type="VI" URL="../../Acquisition/Hardware Configuration.ctl"/>
 		<Item Name="Initialize Hardware References.vi" Type="VI" URL="../../Acquisition/Initialize Hardware References.vi"/>
 		<Item Name="Configure Hardware.vi" Type="VI" URL="../../Acquisition/Configure Hardware.vi"/>
 		<Item Name="Acquire.vi" Type="VI" URL="../../Acquisition/Acquire.vi"/>
-		<Item Name="Stop Acquisition.vi" Type="VI" URL="../../Acquisition/Stop Acquisition.vi"/>
 		<Item Name="Error Handler - Acquisition Message Loop.vi" Type="VI" URL="../../Acquisition/Error Handler - Acquisition Message Loop.vi"/>
 		<Item Name="Find DO Tags.vi" Type="VI" URL="../../Acquisition/Find DO Tags.vi"/>
 		<Item Name="Write Tag Data.vi" Type="VI" URL="../../Acquisition/Write Tag Data.vi"/>
 		<Item Name="Acquisition Settings Dialog.vi" Type="VI" URL="../../Acquisition/Acquisition Settings Dialog.vi"/>
 		<Item Name="Commit DAQ Tags.vi" Type="VI" URL="../Commit DAQ Tags.vi"/>
 		<Item Name="Read Tag Data.vi" Type="VI" URL="../DAQ Write Folder/Acquisition/Read Tag Data.vi"/>
+		<Item Name="DAQ Write.lvlib" Type="Library" URL="../DAQ Write Folder/DAQ/DAQ Write.lvlib"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
 		<Item Name="Task Cluster (with Add Remove Buttons).ctl" Type="VI" URL="../../Acquisition/Task Cluster (with Add Remove Buttons).ctl"/>
@@ -55,4 +61,8 @@
 	<Item Name="Initialize Alarm Time Array.vi" Type="VI" URL="../Initialize Alarm Time Array.vi"/>
 	<Item Name="Alarm Spike Delay.vi" Type="VI" URL="../Alarm Spike Delay.vi"/>
 	<Item Name="Handle DAQ Loose Wires.vi" Type="VI" URL="../Handle DAQ Loose Wires.vi"/>
+	<Item Name="DAQ Test Program.vi" Type="VI" URL="../DAQ Test Program.vi"/>
+	<Item Name="Test Program Data Array.vi" Type="VI" URL="../Test Program Data Array.vi"/>
+	<Item Name="Test Program Read Tag Data.vi" Type="VI" URL="../Test Program Read Tag Data.vi"/>
+	<Item Name="Test Program Write Tag.vi" Type="VI" URL="../Test Program Write Tag.vi"/>
 </Library>

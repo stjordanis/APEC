@@ -9,5 +9,7 @@
 		<Item Name="TT Settings.ctl" Type="VI" URL="../Controls/TT Settings.ctl"/>
 	</Item>
 	<Item Name="TT (Main).vi" Type="VI" URL="../TT (Main).vi"/>
+	<Item Name="TT Module Tag Names.ctl" Type="VI" URL="../Controls/TT Module Tag Names.ctl"/>
+	<Item Name="TT Module Tags.vi" Type="VI" URL="../TT Module Tags.vi"/>
 	<Item Name="TT Settings Dialog.vi" Type="VI" URL="../subVIs/TT Settings Dialog.vi"/>
 </Library>

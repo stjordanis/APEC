@@ -46,8 +46,10 @@
 	<Item Name="Broadcast Settings.vi" Type="VI" URL="../Broadcast Settings.vi"/>
 	<Item Name="Close SV.vi" Type="VI" URL="../Close SV.vi"/>
 	<Item Name="Create All Message Queues.vi" Type="VI" URL="../Create All Message Queues.vi"/>
+	<Item Name="Display Options Window.vi" Type="VI" URL="../Display Options Window.vi"/>
 	<Item Name="Feed Module (Main).vi" Type="VI" URL="../Feed Module (Main).vi"/>
 	<Item Name="Feed Module Engine.lvlib" Type="Library" URL="../../Measure Instrument/Feed Module Engine.lvlib"/>
 	<Item Name="Operation Window.vi" Type="VI" URL="../../Operation Window.vi"/>
 	<Item Name="Settings.lvlib" Type="Library" URL="../../Settings/Settings.lvlib"/>
+	<Item Name="Update Display If Not Updated in DO.vi" Type="VI" URL="../Update Display If Not Updated in DO.vi"/>
 </Library>

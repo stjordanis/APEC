@@ -42,5 +42,6 @@
 	<Item Name="Scale Module Engine.lvlib" Type="Library" URL="../Measure Instrument/Scale Module Engine.lvlib"/>
 	<Item Name="Scale Module Settings Cluster.ctl" Type="VI" URL="../Feed Module/Controls/Scale Module Settings Cluster.ctl"/>
 	<Item Name="Scale Module State Cluster.ctl" Type="VI" URL="../Feed Module/Controls/Scale Module State Cluster.ctl"/>
+	<Item Name="Scale Module Tag Names.ctl" Type="VI" URL="../../Scale Class/Scale Module Tag Names.ctl"/>
 	<Item Name="Scale Settings Dialog.vi" Type="VI" URL="../Scale Settings Dialog.vi"/>
 </Library>

@@ -41,4 +41,6 @@
 	<Item Name="Settings Cluster.ctl" Type="VI" URL="../Settings Cluster.ctl"/>
 	<Item Name="Test Program  Updated.vi" Type="VI" URL="../Test Program  Updated.vi"/>
 	<Item Name="Test Pump Connection.vi" Type="VI" URL="../Test Pump Connection.vi"/>
+	<Item Name="timing V1.vi" Type="VI" URL="../../../../../../../../Downloads/timing V1.vi"/>
+	<Item Name="VICI Global Library.lvlib" Type="Library" URL="../VICI Global Library.lvlib"/>
 </Library>

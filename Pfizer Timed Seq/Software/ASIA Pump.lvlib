@@ -38,9 +38,12 @@
 	<Item Name="ASIA Global Element.ctl" Type="VI" URL="../ASIA Pump/ASIA Global Element.ctl"/>
 	<Item Name="ASIA Global.ctl" Type="VI" URL="../ASIA Pump/ASIA Global.ctl"/>
 	<Item Name="Asia Pump C Test.vi" Type="VI" URL="../Asia Pump C Test.vi"/>
+	<Item Name="ASIA Release Pump.vi" Type="VI" URL="../support/ASIA Release Pump.vi"/>
 	<Item Name="ASIA Reserve Pump.vi" Type="VI" URL="../support/ASIA Reserve Pump.vi"/>
 	<Item Name="Close.vi" Type="VI" URL="../ASIA Pump/Close.vi"/>
+	<Item Name="dll Install Path.vi" Type="VI" URL="../dll Install Path.vi"/>
 	<Item Name="Enter Remote Mode.vi" Type="VI" URL="../ASIA Pump/Enter Remote Mode.vi"/>
+	<Item Name="Global Variable Monitor.vi" Type="VI" URL="../ASIA Pump/Global Variable Monitor.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../ASIA Pump/Initialize.vi"/>
 	<Item Name="Pause.vi" Type="VI" URL="../ASIA Pump/Pause.vi"/>
 	<Item Name="Pump Settings.ctl" Type="VI" URL="../ASIA Pump/Pump Settings.ctl"/>

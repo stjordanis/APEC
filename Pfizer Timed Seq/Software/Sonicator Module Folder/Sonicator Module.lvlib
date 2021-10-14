@@ -40,7 +40,9 @@
 	<Item Name="Sonicator Module Config Cluster.ctl" Type="VI" URL="../Feed Module/Controls/Sonicator Module Config Cluster.ctl"/>
 	<Item Name="Sonicator Module Display.ctl" Type="VI" URL="../Feed Module/Controls/Sonicator Module Display.ctl"/>
 	<Item Name="Sonicator Module Engine.lvlib" Type="Library" URL="../Measure Instrument/Sonicator Module Engine.lvlib"/>
+	<Item Name="Sonicator Module Settings Cluster and Start Stop.ctl" Type="VI" URL="../Feed Module/Controls/Sonicator Module Settings Cluster and Start Stop.ctl"/>
 	<Item Name="Sonicator Module Settings Cluster.ctl" Type="VI" URL="../Feed Module/Controls/Sonicator Module Settings Cluster.ctl"/>
 	<Item Name="Sonicator Module State Cluster.ctl" Type="VI" URL="../Feed Module/Controls/Sonicator Module State Cluster.ctl"/>
+	<Item Name="Sonicator Module Tag Names.ctl" Type="VI" URL="../Feed Module/Controls/Sonicator Module Tag Names.ctl"/>
 	<Item Name="Sonicator Settings Dialog.vi" Type="VI" URL="../Sonicator Settings Dialog.vi"/>
 </Library>

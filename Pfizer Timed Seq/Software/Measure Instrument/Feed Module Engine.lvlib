@@ -40,6 +40,8 @@
 	</Item>
 	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
 	<Item Name="Convert Timed Loop Time.vi" Type="VI" URL="../Convert Timed Loop Time.vi"/>
+	<Item Name="Create Boolean Tags.vi" Type="VI" URL="../Create Boolean Tags.vi"/>
+	<Item Name="Create Numeric Tags.vi" Type="VI" URL="../Create Numeric Tags.vi"/>
 	<Item Name="Error Handler.vi" Type="VI" URL="../Error Handler.vi"/>
 	<Item Name="Graph.vi" Type="VI" URL="../Graph.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
@@ -53,5 +55,9 @@
 	<Item Name="State Enum.ctl" Type="VI" URL="../State Enum.ctl"/>
 	<Item Name="Tag Names.vi" Type="VI" URL="../Tag Names.vi"/>
 	<Item Name="Timed Loop Time.vi" Type="VI" URL="../Timed Loop Time.vi"/>
+	<Item Name="Update Data and Display Measure Step.vi" Type="VI" URL="../Update Data and Display Measure Step.vi"/>
+	<Item Name="Update Data and Display Measure.vi" Type="VI" URL="../Update Data and Display Measure.vi"/>
+	<Item Name="Update Data and Display Pause.vi" Type="VI" URL="../Update Data and Display Pause.vi"/>
+	<Item Name="Update Data and Display.vi" Type="VI" URL="../Update Data and Display.vi"/>
 	<Item Name="Write Tags.vi" Type="VI" URL="../Write Tags.vi"/>
 </Library>

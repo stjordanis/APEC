@@ -39,5 +39,7 @@
 		<Item Name="PT Settings.ctl" Type="VI" URL="../Controls/PT Settings.ctl"/>
 	</Item>
 	<Item Name="PT (Main).vi" Type="VI" URL="../PT (Main).vi"/>
+	<Item Name="PT Module Tag Names.ctl" Type="VI" URL="../Controls/PT Module Tag Names.ctl"/>
+	<Item Name="PT Module Tags.vi" Type="VI" URL="../PT Module Tags.vi"/>
 	<Item Name="PT Settings Dialog.vi" Type="VI" URL="../subVIs/PT Settings Dialog.vi"/>
 </Library>

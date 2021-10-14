@@ -40,4 +40,5 @@
 	<Item Name="Read Temperature.vi" Type="VI" URL="../Read Temperature.vi"/>
 	<Item Name="Read.vi" Type="VI" URL="../Read.vi"/>
 	<Item Name="Settings Cluster.ctl" Type="VI" URL="../Settings Cluster.ctl"/>
+	<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 </Library>

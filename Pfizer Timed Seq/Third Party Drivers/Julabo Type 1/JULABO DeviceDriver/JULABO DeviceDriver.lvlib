@@ -102,7 +102,6 @@
 			<Item Name="InstrumentType.ctl" Type="VI" URL="../Public/Utility/InstrumentType.ctl"/>
 		</Item>
 		<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
-		<Item Name="VI Tree.vi" Type="VI" URL="../Public/VI Tree.vi"/>
 		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
 		<Item Name="Set Out Mode.vi" Type="VI" URL="../Public/Set Out Mode.vi"/>
 	</Item>

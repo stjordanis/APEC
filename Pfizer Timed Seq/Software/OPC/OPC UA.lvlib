@@ -46,6 +46,7 @@
 	<Item Name="Broadcast Settings OPC.vi" Type="VI" URL="../Broadcast Settings OPC.vi"/>
 	<Item Name="Client.vi" Type="VI" URL="../Client.vi"/>
 	<Item Name="Create All Message Queues (OPC).vi" Type="VI" URL="../Create All Message Queues (OPC).vi"/>
+	<Item Name="Get All Process Names.vi" Type="VI" URL="../../support/Get All Process Names.vi"/>
 	<Item Name="Get Server Data.vi" Type="VI" URL="../Get Server Data.vi"/>
 	<Item Name="OPC Dialog.vi" Type="VI" URL="../OPC Dialog.vi"/>
 	<Item Name="OPC Main.vi" Type="VI" URL="../OPC Main.vi"/>

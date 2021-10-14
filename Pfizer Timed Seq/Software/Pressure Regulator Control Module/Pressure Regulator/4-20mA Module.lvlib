@@ -43,7 +43,6 @@
 	</Item>
 	<Item Name="4-20mA Module (Main).vi" Type="VI" URL="../4-20mA Module (Main).vi"/>
 	<Item Name="4-20mA Module Engine.lvlib" Type="Library" URL="../../Measure Instrument/4-20mA Module Engine.lvlib"/>
-	<Item Name="4-20mA Settings.vi" Type="VI" URL="../4-20mA Settings.vi"/>
 	<Item Name="Broadcast Settings.vi" Type="VI" URL="../Broadcast Settings.vi"/>
 	<Item Name="Close SV.vi" Type="VI" URL="../Close SV.vi"/>
 	<Item Name="Create All Message Queues.vi" Type="VI" URL="../Create All Message Queues.vi"/>

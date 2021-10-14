@@ -33,6 +33,11 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="Shared Global Variable Attempt" Type="Folder">
+		<Item Name="Main Config Shared Global Variable.ctl" Type="VI" URL="../Main Config Shared Global Variable.ctl"/>
+		<Item Name="State Cluster FGV.vi" Type="VI" URL="../State Cluster FGV.vi"/>
+		<Item Name="State Cluster Shared Global Variable.ctl" Type="VI" URL="../State Cluster Shared Global Variable.ctl"/>
+	</Item>
 	<Item Name="ASIA Pump Handler.vi" Type="VI" URL="../ASIA Pump Handler.vi"/>
 	<Item Name="Basic RS232 Write Read.vi" Type="VI" URL="../Basic RS232 Write Read.vi"/>
 	<Item Name="Check Loop Error.vi" Type="VI" URL="../Check Loop Error.vi"/>
@@ -40,15 +45,22 @@
 	<Item Name="Create Tag Loop.vi" Type="VI" URL="../Create Tag Loop.vi"/>
 	<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../Error Handler - Event Handling Loop.vi"/>
 	<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../Error Handler - Message Handling Loop.vi"/>
+	<Item Name="Front End Resize.vi" Type="VI" URL="../Front End Resize.vi"/>
 	<Item Name="Globals.lvlib" Type="Library" URL="../../ASIA Pump/Globals.lvlib"/>
+	<Item Name="Keep Front End Ratio.vi" Type="VI" URL="../Keep Front End Ratio.vi"/>
 	<Item Name="Message Queue.lvlib" Type="Library" URL="../Message Queue/Message Queue.lvlib"/>
 	<Item Name="Module Count.vi" Type="VI" URL="../Module Count.vi"/>
+	<Item Name="Post Build Action Edited.vi" Type="VI" URL="../Post Build Action Edited.vi"/>
 	<Item Name="Ramp.vi" Type="VI" URL="../Ramp.vi"/>
 	<Item Name="Rolling Average.vi" Type="VI" URL="../Rolling Average.vi"/>
 	<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../Set Enable State on Multiple Controls.vi"/>
 	<Item Name="Sort Array of Clusters 2012 NIVerified.vi" Type="VI" URL="../Sort Array of Clusters 2012 NIVerified.vi"/>
+	<Item Name="Test Program Logging Create Log.vi" Type="VI" URL="../../Logging/Test Program Logging Create Log.vi"/>
+	<Item Name="Test Program Logging Write Log.vi" Type="VI" URL="../../Logging/Test Program Logging Write Log.vi"/>
+	<Item Name="Totalizer.vi" Type="VI" URL="../Totalizer.vi"/>
 	<Item Name="Update if Clear.vi" Type="VI" URL="../Update if Clear.vi"/>
 	<Item Name="User Event - Stop.lvlib" Type="Library" URL="../User Event - Stop/User Event - Stop.lvlib"/>
+	<Item Name="Write Configuration (INI) FAST File.vi" Type="VI" URL="../Write Configuration (INI) FAST File.vi"/>
 	<Item Name="Write then Read Without Clear.vi" Type="VI" URL="../Write then Read Without Clear.vi"/>
 	<Item Name="Write then Read.vi" Type="VI" URL="../Write then Read.vi"/>
 </Library>

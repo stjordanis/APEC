@@ -38,19 +38,15 @@
 	<Item Name="support" Type="Folder">
 		<Item Name="State Cluster.ctl" Type="VI" URL="../State Cluster.ctl"/>
 	</Item>
-	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
 	<Item Name="Convert Timed Loop Time.vi" Type="VI" URL="../Convert Timed Loop Time.vi"/>
 	<Item Name="DIO Valve Set.vi" Type="VI" URL="../../DIO Valve/DIO Valve Set.vi"/>
 	<Item Name="Error Handler.vi" Type="VI" URL="../Error Handler.vi"/>
 	<Item Name="Graph.vi" Type="VI" URL="../Graph.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
 	<Item Name="Main Loop.vi" Type="VI" URL="../Main Loop.vi"/>
-	<Item Name="Outputs.vi" Type="VI" URL="../Outputs.vi"/>
 	<Item Name="Pause.vi" Type="VI" URL="../Pause.vi"/>
 	<Item Name="State Enum.ctl" Type="VI" URL="../State Enum.ctl"/>
-	<Item Name="Tag Names 2.vi" Type="VI" URL="../Tag Names 2.vi"/>
 	<Item Name="Tag Names.vi" Type="VI" URL="../Tag Names.vi"/>
 	<Item Name="Timed Loop Time.vi" Type="VI" URL="../Timed Loop Time.vi"/>
 	<Item Name="Write Tags 2.vi" Type="VI" URL="../Write Tags 2.vi"/>
-	<Item Name="Write Tags.vi" Type="VI" URL="../Write Tags.vi"/>
 </Library>
