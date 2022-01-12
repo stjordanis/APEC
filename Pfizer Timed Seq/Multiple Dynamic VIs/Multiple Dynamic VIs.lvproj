@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="18008000">
+<Project Type="Project" LVVersion="21008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -20,6 +20,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{95BBA4D6-459B-40B4-A8E0-BDC2E6719FD5}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{BF40AA6D-E99C-478F-A120-0C9A4AD84F6E}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{448EDD86-389B-4F5A-A8D8-7FA6F558F2E1}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>

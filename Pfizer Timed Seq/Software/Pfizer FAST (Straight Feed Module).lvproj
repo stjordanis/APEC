@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="18008000">
+<Project Type="Project" LVVersion="21008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="varPersistentID:{16113C10-FABE-4B50-B379-BB8256ECE004}" Type="Ref">/My Computer/VICI M6 M50 Party Mode.lvlib/VICI Global Library.lvlib/VICI Pump Global</Property>
@@ -77,6 +77,7 @@
 		<Item Name="Flow Module.lvlib" Type="Library" URL="../Flow Module Folder/Flow Module.lvlib"/>
 		<Item Name="Flow Regulator Library.lvlib" Type="Library" URL="../Flow Regulator/Pressure Reg Module/Flow Regulator Library.lvlib"/>
 		<Item Name="History Graph.lvlib" Type="Library" URL="../History Graph/History Graph.lvlib"/>
+		<Item Name="HotCoil.lvlib" Type="Library" URL="../HOTCOIL/HotCoil.lvlib"/>
 		<Item Name="Huber Ministat 230 TCU.lvlib" Type="Library" URL="../Huber TCU/Huber Ministat 230 TCU.lvlib"/>
 		<Item Name="Huber Unistat 410 TCU.lvlib" Type="Library" URL="../Huber Unistat 410 TCU/Huber Unistat 410 TCU.lvlib"/>
 		<Item Name="IKA EUROSTAR.lvlib" Type="Library" URL="../IKA EUROSTAR/IKA EUROSTAR.lvlib"/>
@@ -131,56 +132,53 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
-				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
-				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
-				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
-				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
-				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
 				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
 				<Item Name="Array to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array to Array of VData__ogtk.vi"/>
-				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
-				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
 				<Item Name="Current VI&apos;s Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VI&apos;s Path__ogtk.vi"/>
 				<Item Name="Get Array Element Default Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element Default Data__ogtk.vi"/>
-				<Item Name="Get Array Element TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TD__ogtk.vi"/>
 				<Item Name="Get Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element by Name__ogtk.vi"/>
 				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
-				<Item Name="Get Cluster Elements TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Elements TDs__ogtk.vi"/>
-				<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name from TD__ogtk.vi"/>
 				<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
-				<Item Name="Get Default Data from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Default Data from TD__ogtk.vi"/>
-				<Item Name="Get Element TD from Array TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Element TD from Array TD__ogtk.vi"/>
-				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
-				<Item Name="Get Last PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Last PString__ogtk.vi"/>
-				<Item Name="Get PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
-				<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
 				<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
 				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
-				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
-				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
-				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
-				<Item Name="Random Number - Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number - Within Range__ogtk.vi"/>
 				<Item Name="Random Number Within Range - DBL__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - DBL__ogtk.vi"/>
-				<Item Name="Random Number Within Range - I32__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - I32__ogtk.vi"/>
 				<Item Name="Random Number Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range__ogtk.vi"/>
 				<Item Name="Reshape 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape 1D Array__ogtk.vi"/>
-				<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
 				<Item Name="Set Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Cluster Element by Name__ogtk.vi"/>
-				<Item Name="Set Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Data Name__ogtk.vi"/>
-				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
+				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
+				<Item Name="Set Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Data Name__ogtk.vi"/>
+				<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
+				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
+				<Item Name="Random Number - Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number - Within Range__ogtk.vi"/>
+				<Item Name="Random Number Within Range - I32__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - I32__ogtk.vi"/>
+				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
+				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
+				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
+				<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name from TD__ogtk.vi"/>
+				<Item Name="Get PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
+				<Item Name="Get Last PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Last PString__ogtk.vi"/>
+				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
+				<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
+				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
+				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
+				<Item Name="Get Cluster Elements TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Elements TDs__ogtk.vi"/>
+				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
+				<Item Name="Get Array Element TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TD__ogtk.vi"/>
+				<Item Name="Get Element TD from Array TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Element TD from Array TD__ogtk.vi"/>
+				<Item Name="Get Default Data from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Default Data from TD__ogtk.vi"/>
+				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
+				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
+				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
-				<Item Name="Condition Type.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Condition Type.ctl"/>
-				<Item Name="Data Type Indicator.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Data Type Indicator.ctl"/>
 				<Item Name="Data Type.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Data Type.ctl"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="EventData.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/EventData.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="Historical Access.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Historical Access.ctl"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
@@ -195,10 +193,6 @@
 				<Item Name="NodeIds.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/NodeIds.ctl"/>
 				<Item Name="OccFireType.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/OccFireType.ctl"/>
 				<Item Name="OPC UA Client Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Client Refnum.ctl"/>
-				<Item Name="OPC UA Dialog Condition Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Dialog Condition Refnum.ctl"/>
-				<Item Name="OPC UA Limit Alarm Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Limit Alarm Refnum.ctl"/>
-				<Item Name="OPC UA Notifier Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Notifier Refnum.ctl"/>
-				<Item Name="OPC UA Off Normal Alarm Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Off Normal Alarm Refnum.ctl"/>
 				<Item Name="OPC UA Server Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Server Refnum.ctl"/>
 				<Item Name="OPC UA StatusCode.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA StatusCode.ctl"/>
 				<Item Name="OPC UA Variable Node Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Variable Node Refnum.ctl"/>
@@ -212,34 +206,24 @@
 				<Item Name="Supported Security Policies.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Supported Security Policies.ctl"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Time Out.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Time Out.ctl"/>
 				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="Wait types.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Wait types.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Status.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Write Status.ctl"/>
 				<Item Name="Write Variant Request.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Write Variant Request.ctl"/>
-				<Item Name="Write Variant Result.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Write Variant Result.ctl"/>
 				<Item Name="dscCommn.dll" Type="Document" URL="/&lt;vilib&gt;/lvdsc/common/dscCommn.dll"/>
 				<Item Name="dscHistD.dll" Type="Document" URL="/&lt;vilib&gt;/lvdsc/historical/internal/dscHistD.dll"/>
 				<Item Name="dscProc.dll" Type="Document" URL="/&lt;vilib&gt;/lvdsc/process/dscProc.dll"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="ni_citadel_lv.dll" Type="Document" URL="/&lt;vilib&gt;/citadel/ni_citadel_lv.dll"/>
-				<Item Name="ni_opcua.dll" Type="Document" URL="/&lt;vilib&gt;/OPCUA/ni_opcua.dll"/>
 				<Item Name="nialarms.dll" Type="Document" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/nialarms.dll"/>
 				<Item Name="NI_Excel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Excel/NI_Excel.lvclass"/>
 				<Item Name="NI_HTML.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/HTML/NI_HTML.lvclass"/>
 				<Item Name="NI_report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_report.lvclass"/>
 				<Item Name="NI_Standard Report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Standard Report/NI_Standard Report.lvclass"/>
-				<Item Name="JKI JSON Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/JSON/JKI JSON Serialization.lvlib"/>
-				<Item Name="JKI Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/Core/JKI Serialization.lvlib"/>
-				<Item Name="JKI Unicode.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Unicode/JKI Unicode.lvlib"/>
-				<Item Name="NI OPC UA Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/OPCUA/NI OPC UA Client.lvlib"/>
-				<Item Name="NI OPC UA Server.lvlib" Type="Library" URL="/&lt;vilib&gt;/OPCUA/NI OPC UA Server.lvlib"/>
-				<Item Name="NI OPC UA Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/OPCUA/NI OPC UA Utility.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
-				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_DSC.lvlib" Type="Library" URL="/&lt;vilib&gt;/lvdsc/NI_DSC.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
@@ -251,9 +235,7 @@
 				<Item Name="NI_ReportGenerationToolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_office/NI_ReportGenerationToolkit.lvlib"/>
 				<Item Name="NI_Variable.lvlib" Type="Library" URL="/&lt;vilib&gt;/variable/NI_Variable.lvlib"/>
 				<Item Name="SIMLAB_driver.lvlib" Type="Library" URL="/&lt;vilib&gt;/KNF LAB/Driver S/Lvlib/SIMLAB_driver.lvlib"/>
-				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="Add Limit Alarm.vi" Type="VI" URL="/&lt;vilib&gt;/OPCUA/server/subVI/Add Limit Alarm.vi"/>
 				<Item Name="ALM_Acknowledge.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Acknowledge.vi"/>
 				<Item Name="ALM_Acknowledge_by_Area.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Acknowledge_by_Area.vi"/>
 				<Item Name="ALM_Acknowledge_by_Occurrence.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Acknowledge_by_Occurrence.vi"/>
@@ -282,7 +264,6 @@
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
-				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create ActiveX Event Queue.vi"/>
@@ -423,7 +404,6 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
@@ -432,7 +412,6 @@
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
-				<Item Name="Get Cert AbsPath.vi" Type="VI" URL="/&lt;vilib&gt;/OPCUA/server/subVI/Get Cert AbsPath.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
@@ -440,7 +419,6 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="getSeurityModeAndPolicy.vi" Type="VI" URL="/&lt;vilib&gt;/OPCUA/server/subVI/getSeurityModeAndPolicy.vi"/>
 				<Item Name="Handle Open Word or Excel File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Toolkit/Handle Open Word or Excel File.vi"/>
 				<Item Name="HIST_AlarmDataToControl.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/alarm/HIST_AlarmDataToControl.vi"/>
 				<Item Name="HIST_BuildAlarmColumns.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/historical/internal/alarm/HIST_BuildAlarmColumns.vi"/>
@@ -510,12 +488,10 @@
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Stop Timed Structure.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/scheduler/LVUserAPI/Stop Timed Structure.vi"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="TIME_FormatTS(TS).vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/time/TIME_FormatTS(TS).vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Verify Variant Type.vi" Type="VI" URL="/&lt;vilib&gt;/OPCUA/utilities/Verify Variant Type.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
@@ -549,6 +525,31 @@
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
+				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="NI OPC UA Server.lvlib" Type="Library" URL="/&lt;vilib&gt;/OPCUA/NI OPC UA Server.lvlib"/>
+				<Item Name="NI OPC UA Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/OPCUA/NI OPC UA Utility.lvlib"/>
+				<Item Name="Get Cert AbsPath.vi" Type="VI" URL="/&lt;vilib&gt;/OPCUA/server/subVI/Get Cert AbsPath.vi"/>
+				<Item Name="getSeurityModeAndPolicy.vi" Type="VI" URL="/&lt;vilib&gt;/OPCUA/server/subVI/getSeurityModeAndPolicy.vi"/>
+				<Item Name="ni_opcua.dll" Type="Document" URL="/&lt;vilib&gt;/OPCUA/ni_opcua.dll"/>
+				<Item Name="Historical Access.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Historical Access.ctl"/>
+				<Item Name="OPC UA Notifier Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Notifier Refnum.ctl"/>
+				<Item Name="OPC UA Dialog Condition Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Dialog Condition Refnum.ctl"/>
+				<Item Name="OPC UA Limit Alarm Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Limit Alarm Refnum.ctl"/>
+				<Item Name="Condition Type.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Condition Type.ctl"/>
+				<Item Name="Add Limit Alarm.vi" Type="VI" URL="/&lt;vilib&gt;/OPCUA/server/subVI/Add Limit Alarm.vi"/>
+				<Item Name="OPC UA Off Normal Alarm Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Off Normal Alarm Refnum.ctl"/>
+				<Item Name="NI OPC UA Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/OPCUA/NI OPC UA Client.lvlib"/>
+				<Item Name="Time Out.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Time Out.ctl"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="Verify Variant Type.vi" Type="VI" URL="/&lt;vilib&gt;/OPCUA/utilities/Verify Variant Type.vi"/>
+				<Item Name="Data Type Indicator.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Data Type Indicator.ctl"/>
+				<Item Name="Write Variant Result.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Write Variant Result.ctl"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="JKI JSON Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/JSON/JKI JSON Serialization.lvlib"/>
+				<Item Name="JKI Unicode.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Unicode/JKI Unicode.lvlib"/>
+				<Item Name="JKI Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/Core/JKI Serialization.lvlib"/>
 			</Item>
 			<Item Name="Decoration Module Config Cluster.ctl" Type="VI" URL="../Decoration Module/Decoration Module Config Cluster.ctl"/>
 			<Item Name="Device Selection.ctl" Type="VI" URL="../EPOS4/Controls/Device Selection.ctl"/>
@@ -604,18 +605,12 @@
 			<Item Name="Create Tags.vi" Type="VI" URL="../OPC/Support/Create Tags.vi"/>
 			<Item Name="Cycle Period FGV.vi" Type="VI" URL="../Feed Module/Cycle Period FGV.vi"/>
 			<Item Name="DAQ Tags.vi" Type="VI" URL="../OPC/OSI PI/DAQ Tags.vi"/>
-			<Item Name="DisableAxis.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/State Machine/DisableAxis.vi"/>
 			<Item Name="Draw BMP at Location.vi" Type="VI" URL="../Drag and Drop/Draw BMP at Location.vi"/>
 			<Item Name="Enable Disable Enum to Enabled.vi" Type="VI" URL="../Miscellaeous/Enable Disable Enum to Enabled.vi"/>
-			<Item Name="EnableAxis.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/State Machine/EnableAxis.vi"/>
-			<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Error Handling/Error Converter (ErrCode or Status).vi"/>
 			<Item Name="Feed Module Tags.vi" Type="VI" URL="../OPC/OSI PI/Feed Module Tags.vi"/>
 			<Item Name="File-Settings-Dialog.vi" Type="VI" URL="../File-Settings-Dialog.vi"/>
 			<Item Name="Flow Tags.vi" Type="VI" URL="../OPC/OSI PI/Flow Tags.vi"/>
-			<Item Name="GetAxis.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Initialization/GetAxis.vi"/>
-			<Item Name="GetAxisInfo.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/State Machine/GetAxisInfo.vi"/>
 			<Item Name="Image Folder.vi" Type="VI" URL="../Drag and Drop/Image Folder.vi"/>
-			<Item Name="Initialize.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Initialization/Initialize.vi"/>
 			<Item Name="LDT1012 Close.vi" Type="VI" URL="../../Third Party Drivers/Ld1012/ld1012.llb/LDT1012 Close.vi"/>
 			<Item Name="LDT1012 Config Pump Power Level.vi" Type="VI" URL="../../Third Party Drivers/Ld1012/ld1012.llb/LDT1012 Config Pump Power Level.vi"/>
 			<Item Name="LDT1012 Config Setpoint.vi" Type="VI" URL="../../Third Party Drivers/Ld1012/ld1012.llb/LDT1012 Config Setpoint.vi"/>
@@ -638,7 +633,6 @@
 			<Item Name="Load Palette Images.vi" Type="VI" URL="../Drag and Drop/Load Palette Images.vi"/>
 			<Item Name="Main Globals.vi" Type="VI" URL="../Main/Main Globals.vi"/>
 			<Item Name="Make Child Window.vi" Type="VI" URL="../support/Make Child Window.vi"/>
-			<Item Name="MoveWithVelocity.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Profile Velocity Mode/MoveWithVelocity.vi"/>
 			<Item Name="mxLvDebugDisplayCaller.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvDebugDisplayCaller.vi"/>
 			<Item Name="mxLvErrorHandler.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvErrorHandler.vi"/>
 			<Item Name="mxLvGenerateGuid.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGenerateGuid.vi"/>
@@ -654,34 +648,41 @@
 			<Item Name="SCT Get Types.vi" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Get Types.vi"/>
 			<Item Name="Shift Half Rectangle.vi" Type="VI" URL="../Drag and Drop/Shift Half Rectangle.vi"/>
 			<Item Name="Sonicator Tags.vi" Type="VI" URL="../OPC/OSI PI/Sonicator Tags.vi"/>
-			<Item Name="StopAxis.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Motion Info/StopAxis.vi"/>
 			<Item Name="TCU Tags.vi" Type="VI" URL="../OPC/OSI PI/TCU Tags.vi"/>
-			<Item Name="VCS Activate Profile Velocity Mode.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Profile Velocity Mode/VCS Layer/VCS Activate Profile Velocity Mode.vi"/>
-			<Item Name="VCS Clear Fault.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/State Machine/VCS Layer/VCS Clear Fault.vi"/>
-			<Item Name="VCS Get Current Is.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Motion Info/VCS Layer/VCS Get Current Is.vi"/>
-			<Item Name="VCS Get Device Name.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Initialization/Advanced/VCS Get Device Name.vi"/>
-			<Item Name="VCS Get Movement State.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Motion Info/VCS Layer/VCS Get Movement State.vi"/>
+			<Item Name="Which Thumbnail.vi" Type="VI" URL="../Drag and Drop/Which Thumbnail.vi"/>
+			<Item Name="StopAxis.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Motion Info/StopAxis.vi"/>
 			<Item Name="VCS Get Operation Mode.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Operation Mode/VCS Layer/VCS Get Operation Mode.vi"/>
-			<Item Name="VCS Get Position Is.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Motion Info/VCS Layer/VCS Get Position Is.vi"/>
-			<Item Name="VCS Get State.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/State Machine/VCS Layer/VCS Get State.vi"/>
-			<Item Name="VCS Get Velocity Is.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Motion Info/VCS Layer/VCS Get Velocity Is.vi"/>
-			<Item Name="VCS Halt Position Movement.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Profile Position Mode/VCS Layer/VCS Halt Position Movement.vi"/>
+			<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Error Handling/Error Converter (ErrCode or Status).vi"/>
 			<Item Name="VCS Halt Velocity Movement.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Profile Velocity Mode/VCS Layer/VCS Halt Velocity Movement.vi"/>
-			<Item Name="VCS Move With Velocity.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Profile Velocity Mode/VCS Layer/VCS Move With Velocity.vi"/>
-			<Item Name="VCS Open Device.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Initialization/Communication/VCS Open Device.vi"/>
-			<Item Name="VCS Set Current Must.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Current Mode/VCS Layer/VCS Set Current Must.vi"/>
-			<Item Name="VCS Set Disable State.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/State Machine/VCS Layer/VCS Set Disable State.vi"/>
-			<Item Name="VCS Set Enable State.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/State Machine/VCS Layer/VCS Set Enable State.vi"/>
-			<Item Name="VCS Set Operation Mode.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Operation Mode/VCS Layer/VCS Set Operation Mode.vi"/>
-			<Item Name="VCS Set Position Profile.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Profile Position Mode/VCS Layer/VCS Set Position Profile.vi"/>
-			<Item Name="VCS Set Protocol Stack Settings.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Initialization/Communication/VCS Set Protocol Stack Settings.vi"/>
-			<Item Name="VCS Set Quick Stop State.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/State Machine/VCS Layer/VCS Set Quick Stop State.vi"/>
-			<Item Name="VCS Set Velocity Must.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Velocity Mode/VCS Layer/VCS Set Velocity Must.vi"/>
-			<Item Name="VCS Set Velocity Profile.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Profile Velocity Mode/VCS Layer/VCS Set Velocity Profile.vi"/>
 			<Item Name="VCS Stop Homing.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Homing Mode/VCS Layer/VCS Stop Homing.vi"/>
 			<Item Name="VCS Stop Ipm Trajectory.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Interpolated Position Mode/VCS Layer/VCS Stop Ipm Trajectory.vi"/>
+			<Item Name="VCS Set Quick Stop State.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/State Machine/VCS Layer/VCS Set Quick Stop State.vi"/>
+			<Item Name="VCS Set Velocity Must.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Velocity Mode/VCS Layer/VCS Set Velocity Must.vi"/>
+			<Item Name="VCS Set Current Must.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Current Mode/VCS Layer/VCS Set Current Must.vi"/>
+			<Item Name="VCS Set Disable State.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/State Machine/VCS Layer/VCS Set Disable State.vi"/>
+			<Item Name="VCS Halt Position Movement.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Profile Position Mode/VCS Layer/VCS Halt Position Movement.vi"/>
 			<Item Name="VCS Wait For Target Reached.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Motion Info/VCS Layer/VCS Wait For Target Reached.vi"/>
-			<Item Name="Which Thumbnail.vi" Type="VI" URL="../Drag and Drop/Which Thumbnail.vi"/>
+			<Item Name="DisableAxis.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/State Machine/DisableAxis.vi"/>
+			<Item Name="Initialize.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Initialization/Initialize.vi"/>
+			<Item Name="VCS Open Device.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Initialization/Communication/VCS Open Device.vi"/>
+			<Item Name="VCS Set Protocol Stack Settings.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Initialization/Communication/VCS Set Protocol Stack Settings.vi"/>
+			<Item Name="GetAxis.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Initialization/GetAxis.vi"/>
+			<Item Name="VCS Set Operation Mode.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Operation Mode/VCS Layer/VCS Set Operation Mode.vi"/>
+			<Item Name="VCS Clear Fault.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/State Machine/VCS Layer/VCS Clear Fault.vi"/>
+			<Item Name="VCS Get Device Name.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Initialization/Advanced/VCS Get Device Name.vi"/>
+			<Item Name="VCS Set Position Profile.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Profile Position Mode/VCS Layer/VCS Set Position Profile.vi"/>
+			<Item Name="EnableAxis.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/State Machine/EnableAxis.vi"/>
+			<Item Name="VCS Set Enable State.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/State Machine/VCS Layer/VCS Set Enable State.vi"/>
+			<Item Name="MoveWithVelocity.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Profile Velocity Mode/MoveWithVelocity.vi"/>
+			<Item Name="VCS Activate Profile Velocity Mode.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Profile Velocity Mode/VCS Layer/VCS Activate Profile Velocity Mode.vi"/>
+			<Item Name="VCS Set Velocity Profile.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Profile Velocity Mode/VCS Layer/VCS Set Velocity Profile.vi"/>
+			<Item Name="VCS Move With Velocity.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Profile Velocity Mode/VCS Layer/VCS Move With Velocity.vi"/>
+			<Item Name="GetAxisInfo.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/State Machine/GetAxisInfo.vi"/>
+			<Item Name="VCS Get State.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/State Machine/VCS Layer/VCS Get State.vi"/>
+			<Item Name="VCS Get Movement State.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Motion Info/VCS Layer/VCS Get Movement State.vi"/>
+			<Item Name="VCS Get Current Is.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Motion Info/VCS Layer/VCS Get Current Is.vi"/>
+			<Item Name="VCS Get Velocity Is.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Motion Info/VCS Layer/VCS Get Velocity Is.vi"/>
+			<Item Name="VCS Get Position Is.vi" Type="VI" URL="../../../../../../../../../Program Files (x86)/maxon motor ag/EPOS IDX/EPOS4/04 Programming/Windows DLL/LabVIEW/maxon EPOS/Operation/Motion Info/VCS Layer/VCS Get Position Is.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FAST Application" Type="EXE">
@@ -689,12 +690,14 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{7CE8FA91-FF7B-4578-87FB-C883BD19AC78}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{D08CB5D6-45F2-4ABE-9B99-07F2FA568251}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_useFFRTE" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{B626693B-6E03-40DD-8582-33DC4BAFB782}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">FAST Application</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">FAST Application</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/FAST Application</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6BD55BC2-D0B1-4A5B-937F-5A00C3F9007B}</Property>
@@ -714,7 +717,8 @@
 				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
 				<Property Name="Exe_VardepLibItemCount" Type="Int">1</Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B621351C-9A38-47D0-B337-3BD22C1632D6}</Property>
+				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8B3DC9C1-E4E1-458D-89A6-D918744B1192}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -943,6 +947,7 @@
 				<Property Name="Source[9].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">42</Property>
 				<Property Name="TgtF_companyName" Type="Str">Pfizer</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">FAST Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">FAST Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Pfizer</Property>
@@ -961,71 +966,75 @@
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{D1ED3157-57F9-4363-BFE1-C0FF62071201}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI Distributed System Manager 2018</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{56CE3148-AF48-49F0-8CEC-85F5AFC7F843}</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{34FE6952-55BA-4098-A49A-F027CA3F1A45}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI Distributed System Manager 2021</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{ECAF201A-E0CC-3BC4-984D-E94C3AF29064}</Property>
 				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{445F78DF-BC30-4564-94F3-FD9812F0703D}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI LabVIEW DSC Module Runtime 2018 SP1 f4</Property>
-				<Property Name="DistPart[1].upgradeCode" Type="Str">{12532B3A-9581-4948-ADE3-F171073AA7AA}</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{EA826124-0BCE-421D-8141-32154004D314}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI LabVIEW OPC UA Toolkit Runtime 2021</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{53027DD2-4E7C-47E6-9E10-C7C5FAC0E3B8}</Property>
 				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{36172A19-0114-422C-A0CA-5998BABCE6D7}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW OPC UA Toolkit Runtime 2018</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{C9E221C0-502E-4E89-8E49-C762BA566D40}</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{61227766-7B59-4CB8-9588-C96BB786E113}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Remote Execution Support 2021</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{4FA25B24-E804-340A-8397-7A5C529A9955}</Property>
 				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[3].productID" Type="Str">{E7491C92-6FEB-4CD1-8F74-1C6909D1FBAD}</Property>
-				<Property Name="DistPart[3].productName" Type="Str">NI Variable Engine 2019</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{5C8FA6FD-3492-4E87-A381-BC8CE6AF493F}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI Variable Engine 2021</Property>
 				<Property Name="DistPart[3].upgradeCode" Type="Str">{EB7A3C81-1C0F-4495-8CE5-0A427E4E6285}</Property>
 				<Property Name="DistPart[4].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[4].productID" Type="Str">{990D2361-0AD6-4071-B4CB-E32698D4FC64}</Property>
-				<Property Name="DistPart[4].productName" Type="Str">NI-DAQmx Runtime 20.0</Property>
-				<Property Name="DistPart[4].upgradeCode" Type="Str">{923C9CD5-A0D8-4147-9A8D-998780E30763}</Property>
-				<Property Name="DistPart[5].flavorID" Type="Str">_deployment_</Property>
-				<Property Name="DistPart[5].productID" Type="Str">{EDF95F83-017A-4425-8F94-63FF8533A5EA}</Property>
-				<Property Name="DistPart[5].productName" Type="Str">NI-VISA Runtime 18.5</Property>
-				<Property Name="DistPart[5].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
-				<Property Name="DistPart[6].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[6].productID" Type="Str">{5AFE0793-84BD-40BC-ADD6-E69EEAFDE058}</Property>
-				<Property Name="DistPart[6].productName" Type="Str">NI LabVIEW Runtime 2018 SP1 f5</Property>
-				<Property Name="DistPart[6].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
-				<Property Name="DistPart[6].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[6].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
-				<Property Name="DistPart[6].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
-				<Property Name="DistPart[6].SoftDep[10].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[6].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[6].SoftDep[11].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[11].productName" Type="Str">NI TDM Streaming 19.0</Property>
-				<Property Name="DistPart[6].SoftDep[11].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[6].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[2].productName" Type="Str">NI Error Reporting 2019</Property>
-				<Property Name="DistPart[6].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
-				<Property Name="DistPart[6].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2018</Property>
-				<Property Name="DistPart[6].SoftDep[3].upgradeCode" Type="Str">{EF4708F6-5A34-4DBA-B12B-79CC2004E20B}</Property>
-				<Property Name="DistPart[6].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[4].productName" Type="Str">NI LabVIEW Runtime 2018 SP1 Non-English Support.</Property>
-				<Property Name="DistPart[6].SoftDep[4].upgradeCode" Type="Str">{3C68D03D-EF38-41B5-9977-E27520759DD6}</Property>
-				<Property Name="DistPart[6].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[5].productName" Type="Str">NI Logos 19.0</Property>
-				<Property Name="DistPart[6].SoftDep[5].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[6].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2018</Property>
-				<Property Name="DistPart[6].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
-				<Property Name="DistPart[6].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[7].productName" Type="Str">NI mDNS Responder 19.0</Property>
-				<Property Name="DistPart[6].SoftDep[7].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[6].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2017</Property>
-				<Property Name="DistPart[6].SoftDep[8].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
-				<Property Name="DistPart[6].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[9].productName" Type="Str">Math Kernel Libraries 2018</Property>
-				<Property Name="DistPart[6].SoftDep[9].upgradeCode" Type="Str">{33A780B9-8BDE-4A3A-9672-24778EFBEFC4}</Property>
-				<Property Name="DistPart[6].SoftDepCount" Type="Int">12</Property>
-				<Property Name="DistPart[6].upgradeCode" Type="Str">{3B195EBF-4A09-46E6-8EAD-931568C1344C}</Property>
-				<Property Name="DistPartCount" Type="Int">7</Property>
+				<Property Name="DistPart[4].productID" Type="Str">{8A2BC7C0-44B9-467F-8450-D19E048CFE89}</Property>
+				<Property Name="DistPart[4].productName" Type="Str">NI-488.2 Runtime 21.0</Property>
+				<Property Name="DistPart[4].upgradeCode" Type="Str">{357F6618-C660-41A2-A185-5578CC876D1D}</Property>
+				<Property Name="DistPart[5].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[5].productID" Type="Str">{61DA2A53-6B57-448F-882D-E9E5046052E1}</Property>
+				<Property Name="DistPart[5].productName" Type="Str">NI-DAQmx Runtime 21.0</Property>
+				<Property Name="DistPart[5].upgradeCode" Type="Str">{923C9CD5-A0D8-4147-9A8D-998780E30763}</Property>
+				<Property Name="DistPart[6].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[6].productID" Type="Str">{A36800D3-08A2-44C9-B12D-F6753A895660}</Property>
+				<Property Name="DistPart[6].productName" Type="Str">NI-VISA Runtime 21.0</Property>
+				<Property Name="DistPart[6].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[7].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[7].productID" Type="Str">{46FB1DD2-CA29-416E-8E5F-B8AC0E4EFFB2}</Property>
+				<Property Name="DistPart[7].productName" Type="Str">NI LabVIEW Runtime 2021</Property>
+				<Property Name="DistPart[7].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[7].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[7].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[1].productName" Type="Str">NI Deployment Framework 2021</Property>
+				<Property Name="DistPart[7].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[7].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[7].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[7].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[11].productName" Type="Str">NI TDM Streaming 21.0</Property>
+				<Property Name="DistPart[7].SoftDep[11].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[7].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[2].productName" Type="Str">NI Error Reporting 2020</Property>
+				<Property Name="DistPart[7].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[7].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2021</Property>
+				<Property Name="DistPart[7].SoftDep[3].upgradeCode" Type="Str">{764CB77E-F1C0-34FF-B1B9-3AF23D162D6B}</Property>
+				<Property Name="DistPart[7].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[4].productName" Type="Str">NI LabVIEW Runtime 2021 Non-English Support.</Property>
+				<Property Name="DistPart[7].SoftDep[4].upgradeCode" Type="Str">{61B01DDE-3406-339D-9ABC-358C2D13CC73}</Property>
+				<Property Name="DistPart[7].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[5].productName" Type="Str">NI Logos 21.0</Property>
+				<Property Name="DistPart[7].SoftDep[5].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[7].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2021</Property>
+				<Property Name="DistPart[7].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
+				<Property Name="DistPart[7].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[7].productName" Type="Str">NI mDNS Responder 21.0</Property>
+				<Property Name="DistPart[7].SoftDep[7].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[7].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[7].SoftDep[8].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[7].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[9].productName" Type="Str">Math Kernel Libraries 2020</Property>
+				<Property Name="DistPart[7].SoftDep[9].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
+				<Property Name="DistPart[7].SoftDepCount" Type="Int">12</Property>
+				<Property Name="DistPart[7].upgradeCode" Type="Str">{251E8668-4013-3671-857C-61D46B2AC827}</Property>
+				<Property Name="DistPartCount" Type="Int">8</Property>
 				<Property Name="INST_author" Type="Str">PVI Systems, Inc.</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/FAST/FAST Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
@@ -1035,7 +1044,7 @@
 				<Property Name="INST_productName" Type="Str">FAST</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">18018011</Property>
+				<Property Name="InstSpecVersion" Type="Str">21008000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Pfizer</Property>
 				<Property Name="MSI_arpContact" Type="Str">John Pfisterer</Property>
 				<Property Name="MSI_arpURL" Type="Str">www.pfizer.com</Property>
@@ -1082,6 +1091,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{151CFA5F-BE48-4A1C-8CB4-B0129D07425F}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{EEB1389F-D578-4183-A395-A585C1EB4D5A}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.Pfizer.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{61AAE419-5D41-4E03-A9DF-00664283BB5C}</Property>
